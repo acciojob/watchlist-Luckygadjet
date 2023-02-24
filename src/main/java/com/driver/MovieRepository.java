@@ -124,5 +124,7 @@ public class MovieRepository {
                 movies.remove(movie);
             }
         }
+        dirmovpair.clear();
+        directors.clear();
     }
 }
